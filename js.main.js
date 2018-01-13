@@ -50,7 +50,7 @@ if (inputValue === false) return false;
    if (inputValue === "") {   
   swal.showInputError("Không thể để trống được ");   
   return false   }  
- swal("OK ! ", "Món quà : " + inputValue + " sẽ tặng cho XXXX trong 10s nữa hãy đợi nhé, Chúc một ngày Sinh Nhật thật Vui Vẻ nhé ^^   ", "success"); });
+ swal("OK ! ", "Món quà : " + inputValue + " hết, Chúc một ngày Sinh Nhật thật Vui Vẻ nhé ^^   ", "success"); });
 
 
 },3000);
